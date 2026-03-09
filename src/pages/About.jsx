@@ -53,6 +53,7 @@ const About = () => {
             <li>Sustainability  – We are committed to responsible tourism and conservation.</li>
             <li>Collaboration   – We believe in the power of partnerships and teamwork.</li>
           </ol>
+          
         </div>
       </section>
     </div>

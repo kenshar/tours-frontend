@@ -1,0 +1,66 @@
+import '../styles/Team.css';
+
+const Team = () => {
+  const teamMembers = [
+    {
+      id: 1,
+      name: 'Simon Ndung\'u',
+      title: 'Chief Executive Officer',
+      position: 'ceo'
+    },
+    {
+      id: 2,
+      name: 'Jemimah Nguku',
+      title: 'Executive Director',
+      position: 'director'
+    },
+    {
+      id: 3,
+      name: 'Doris',
+      title: 'Tour Consultant',
+      position: 'consultant'
+    },
+    {
+      id: 4,
+      name: 'James',
+      title: 'IT Manager',
+      position: 'manager'
+    }
+  ];
+
+  return (
+    <div className="team">
+      <section className="team-intro">
+        <h2>The Organization</h2>
+      </section>
+
+      <section className="team-content">
+        <div className="ceo-section">
+          <div className="ceo-card">
+            <div className="member-image-placeholder"></div>
+            <h3>{teamMembers[0].name}</h3>
+            <p className="member-title">{teamMembers[0].title}</p>
+          </div>
+        </div>
+
+        <div className="team-grid">
+          {teamMembers.slice(1).map(member => (
+            <div key={member.id} className="team-card">
+              <div className="member-image-placeholder"></div>
+              <h3>{member.name}</h3>
+              <p className="member-title">{member.title}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="team-quote">
+          <p>
+            "Our strength lies in teamwork—working together to deliver seamless, memorable travel experiences."
+          </p>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Team;

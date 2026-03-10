@@ -6,7 +6,7 @@ const Safaris = () => {
       id: 1,
       name: 'Classic Kenya Safari',
       duration: '5 Days / 4 Nights',
-      price: '$2,499',
+      price: 'ksh. 2,499',
       highlights: ['Maasai Mara', 'Game drives', 'Big Five', 'Luxury lodging'],
       image: '🦁'
     },
@@ -14,7 +14,7 @@ const Safaris = () => {
       id: 2,
       name: 'Tanzania Adventure',
       duration: '7 Days / 6 Nights',
-      price: '$3,299',
+      price: 'ksh. 3,299',
       highlights: ['Serengeti', 'Crater Tour', 'Hot air balloon', 'Photography'],
       image: '🦓'
     },
@@ -22,7 +22,7 @@ const Safaris = () => {
       id: 3,
       name: 'Premium All-Inclusive',
       duration: '10 Days / 9 Nights',
-      price: '$5,499',
+      price: 'ksh. 5,499',
       highlights: ['Kenya & Tanzania', 'Premium camps', 'All meals', 'Private guide'],
       image: '🦒'
     },
@@ -30,7 +30,7 @@ const Safaris = () => {
       id: 4,
       name: 'Botswana Delta',
       duration: '6 Days / 5 Nights',
-      price: '$3,899',
+      price: 'ksh. 3,899',
       highlights: ['Okavango Delta', 'Water safaris', 'Bird watching', 'Bush walks'],
       image: '🦏'
     }

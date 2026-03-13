@@ -43,10 +43,10 @@
 .vision-section h4,
 .values-section h5 {
   font-size: 1.8rem;
-  color: #1a3a52;
+  color: var(--secondary-color);
   font-weight: 700;
   margin: 0;
-  border-bottom: 4px solid #d4af37;
+  border-bottom: 4px solid var(--primary-color);
   padding-bottom: 0.8rem;
 }
 
@@ -75,30 +75,30 @@
 }
 
 .about-section a {
-  color: #d4af37;
+  color: var(--primary-color);
   font-weight: 600;
   transition: color 0.3s ease;
   text-decoration: none;
 }
 
 .about-section a:hover {
-  color: #c9a227;
+  color: var(--accent-color);
   text-decoration: underline;
 }
 
 .mission-section {
-  background: linear-gradient(135deg, #e8f0f8 0%, #f0e8f8 100%);
-  border-left: 6px solid #d4af37;
+  background: linear-gradient(135deg, #f0f0f0 0%, #faf9f6 100%);
+  border-left: 6px solid var(--primary-color);
 }
 
 .vision-section {
-  background: linear-gradient(135deg, #f8f0e8 0%, #f0f8e8 100%);
-  border-left: 6px solid #d4af37;
+  background: linear-gradient(135deg, #faf9f6 0%, #f0f0f0 100%);
+  border-left: 6px solid var(--primary-color);
 }
 
 .values-section {
-  background: linear-gradient(135deg, #f0e8f8 0%, #e8f0f8 100%);
-  border-left: 6px solid #d4af37;
+  background: linear-gradient(135deg, #f0f0f0 0%, #faf9f6 100%);
+  border-left: 6px solid var(--primary-color);
 }
 
 @media (max-width: 768px) {

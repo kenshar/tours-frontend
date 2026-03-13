@@ -11,7 +11,7 @@
 
 .team-intro h2 {
   font-size: 2.5rem;
-  color: #1a3a52;
+  color: var(--secondary-color);
   font-weight: bold;
   margin: 0;
 }
@@ -39,10 +39,10 @@
 .ceo-card .member-image-placeholder {
   width: 150px;
   height: 150px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, #2d2d2d 100%);
   border-radius: 8px;
   margin: 0 auto 20px;
-  border: 4px solid #f4a460;
+  border: 4px solid var(--primary-color);
 }
 
 .ceo-card .member-image {
@@ -56,7 +56,7 @@
 
 .ceo-card h3 {
   font-size: 1.3rem;
-  color: #1a3a52;
+  color: var(--secondary-color);
   margin: 15px 0 8px;
   font-weight: bold;
   text-transform: uppercase;
@@ -97,15 +97,15 @@
 .team-card .member-image-placeholder {
   width: 120px;
   height: 120px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, #2d2d2d 100%);
   border-radius: 8px;
   margin: 0 auto 15px;
-  border: 4px solid #f4a460;
+  border: 4px solid var(--primary-color);
 }
 
 .team-card h3 {
   font-size: 1.1rem;
-  color: #1a3a52;
+  color: var(--secondary-color);
   margin: 12px 0 8px;
   font-weight: bold;
   text-transform: uppercase;
@@ -130,7 +130,7 @@
 
 .team-quote p {
   font-size: 1.1rem;
-  color: #1a3a52;
+  color: var(--secondary-color);
   font-style: italic;
   margin: 0;
   line-height: 1.6;
@@ -141,7 +141,7 @@
 .team-quote::before {
   content: '"';
   font-size: 3rem;
-  color: #f4a460;
+  color: var(--primary-color);
   display: block;
   line-height: 0.5;
   margin-bottom: 10px;

@@ -27,6 +27,7 @@ const Header = ({ onNavigate }) => {
           <button onClick={() => handleNavClick('products')} className="nav-link">Products & Services</button>
           <button onClick={() => handleNavClick('about')} className="nav-link">About</button>
           <button onClick={() => handleNavClick('team')} className="nav-link">Team</button>
+          <button onClick={() => handleNavClick('csr')} className="nav-link">Csr</button>
           <button onClick={() => handleNavClick('contact')} className="nav-link">Contact</button>
           <button onClick={() => handleNavClick('login')} className="nav-link login-btn">Login</button>
         </nav>

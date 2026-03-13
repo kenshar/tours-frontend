@@ -8,6 +8,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import LogIn from './pages/LogIn'
 import Team from './pages/Team'
+import Csr from './pages/Csr'
 import './styles/global.css'
 import './App.css'
 
@@ -30,6 +31,8 @@ function App() {
         return <LogIn />
       case 'team':
         return <Team />
+      case 'csr':
+        return <Csr />
       default:
         return <Home />
     }
